@@ -250,12 +250,12 @@ struct MedtrumKitSettings: View {
                     Button(action: { viewModel.deactivatePatchAction() }) {
                         HStack {
                             Text("Deactivate Patch", comment: "deactivate patch")
-                                .foregroundStyle(.red)
+                                .foregroundStyle(.pink)
                             Spacer()
                             Image(systemName: "chevron.right")
                                 .font(.system(size: UIFont.systemFontSize, weight: .bold))
                                 .opacity(0.5)
-                                .foregroundColor(.red)
+                                .foregroundColor(.pink)
                         }
                     }
 
@@ -607,7 +607,7 @@ struct MedtrumKitSettings: View {
                  .gracePeriod:
                 HStack {
                     Text("Patch expired", comment: "Text shown when patch expired")
-                        .foregroundStyle(.red)
+                        .foregroundStyle(.pink)
                     Spacer()
                 }
             case .expiredBasalOnly:
@@ -616,7 +616,7 @@ struct MedtrumKitSettings: View {
                         "Extended Patch expired. Basal only.",
                         comment: "Text shown when extended patch expired surpasses 120 hours"
                     )
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
                     Spacer()
                 }
             }
@@ -684,7 +684,7 @@ struct MedtrumKitSettings: View {
     }
 
     var connectionStatusIcon: some View {
-        let color = viewModel.isReconnecting ? Color.orange : viewModel.isConnected ? Color.green : Color.red
+        let color = viewModel.isReconnecting ? Color.orange : viewModel.isConnected ? Color.green : Color.pink
 
         return Circle()
             .fill(color)

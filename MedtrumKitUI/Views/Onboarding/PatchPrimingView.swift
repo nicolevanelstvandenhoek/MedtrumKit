@@ -69,11 +69,11 @@ struct PatchPrimingView: View {
             if !viewModel.primingError.isEmpty {
                 Text(viewModel.primingError)
                     .multilineTextAlignment(.center)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             } else if !viewModel.isPriming {
                 Text("Do not attach the patch to the body yet", comment: "Label for warning priming")
                     .multilineTextAlignment(.center)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             } else {
                 ProgressView(progress: viewModel.primeProgress)
                     .padding(.horizontal)

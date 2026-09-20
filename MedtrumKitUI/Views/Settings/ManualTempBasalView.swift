@@ -55,7 +55,7 @@ struct ManualTempBasalView: View {
             if let error = viewModel.error {
                 Text(error)
                     .multilineTextAlignment(.center)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             }
             Button(action: viewModel.enact) {
                 HStack(alignment: .center, spacing: 10) {

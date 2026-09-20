@@ -51,7 +51,7 @@ struct PatchActivationView: View {
             if !viewModel.activationError.isEmpty {
                 Text(viewModel.activationError)
                     .multilineTextAlignment(.center)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             }
 
             Button(action: { viewModel.previousStep() }) {

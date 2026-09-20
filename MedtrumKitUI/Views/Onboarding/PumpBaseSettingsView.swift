@@ -32,7 +32,7 @@ struct PumpBaseSettingsView: View {
             Spacer()
             if !viewModel.errorMessage.isEmpty {
                 Text(viewModel.errorMessage)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             }
 
             Button(action: { viewModel.saveAndContinue() }) {

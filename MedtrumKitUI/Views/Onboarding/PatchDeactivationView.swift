@@ -21,10 +21,10 @@ struct PatchDeactivationView: View {
 
             if !viewModel.deactivationError.isEmpty {
                 Text(viewModel.deactivationError)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             } else if viewModel.disableButtons {
                 Text("Cannot deactivate while a bolus is in progress", comment: "Wait for bolus to complete")
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
             }
 
             Button(action: { showingConfirmationPrompt = true }) {

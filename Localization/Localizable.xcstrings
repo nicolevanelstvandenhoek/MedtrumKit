@@ -16914,7 +16914,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Insuline Opgeschort"
+            "value" : "Insuline opgeschort"
           }
         },
         "pl" : {
@@ -22420,7 +22420,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Patch Details"
+            "value" : "Patch details"
           }
         },
         "pl" : {
@@ -25822,7 +25822,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vorige Patch Details"
+            "value" : "Vorige patch details"
           }
         },
         "pl" : {
@@ -29222,7 +29222,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geplande Basaal"
+            "value" : "Geplande basaal"
           }
         },
         "pl" : {
@@ -31814,7 +31814,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opgeschort - Auto"
+            "value" : "Opgeschort - auto"
           }
         },
         "pl" : {
@@ -31976,7 +31976,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geschorst - Dagelijks Max"
+            "value" : "Geschorst - dagelijks max"
           }
         },
         "pl" : {
@@ -32138,7 +32138,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opgeschort - Uurmaximum"
+            "value" : "Opgeschort - uurmaximum"
           }
         },
         "pl" : {

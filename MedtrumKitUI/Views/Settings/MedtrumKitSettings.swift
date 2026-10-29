@@ -632,7 +632,7 @@ struct MedtrumKitSettings: View {
                             viewModel.patchStateString
                         )
                     )
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.pink)
                     .fontWeight(.bold)
 
                     Spacer()

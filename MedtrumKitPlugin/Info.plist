@@ -20,6 +20,10 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSHumanReadableCopyright</key>
 	<string></string>
+	<key>com.loopkit.Loop.DeviceManufacturer</key>
+	<string>Medtrum</string>
+	<key>com.loopkit.Loop.PluginSubtitle</key>
+	<string>200U, 300U</string>
 	<key>com.loopkit.Loop.PumpManagerDisplayName</key>
 	<string>Medtrum Nano</string>
 	<key>com.loopkit.Loop.PumpManagerIdentifier</key>

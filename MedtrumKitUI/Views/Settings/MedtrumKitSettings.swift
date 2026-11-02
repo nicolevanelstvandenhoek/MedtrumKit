@@ -1,4 +1,5 @@
 import LoopKit
+import LoopKitUI
 import SwiftUI
 
 struct MedtrumKitSettings: View {

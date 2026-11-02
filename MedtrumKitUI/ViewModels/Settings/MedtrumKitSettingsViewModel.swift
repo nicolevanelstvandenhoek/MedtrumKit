@@ -316,7 +316,7 @@ class MedtrumKitSettingsViewModel: PatchLifetimeFormatting, ObservableObject, Pu
         }
 
         isUpdatingTempBasal = true
-        pumpManager.enactTempBasal(unitsPerHour: 0, for: 0) { error in
+        pumpManager.enactTempBasal(decisionId: nil, unitsPerHour: 0, for: 0) { error in
             DispatchQueue.main.async {
                 self.isUpdatingTempBasal = false
             }

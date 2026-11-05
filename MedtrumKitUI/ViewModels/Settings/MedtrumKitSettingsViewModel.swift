@@ -249,10 +249,9 @@ class MedtrumKitSettingsViewModel: PatchLifetimeFormatting, ObservableObject, Pu
             return
         }
 
-        pumpManager.notifyDelegateOfDeactivation {
-            DispatchQueue.main.async {
-                self.pumpRemovalAction()
-            }
+        Task { @MainActor in
+            await pumpManager.delete()
+            self.pumpRemovalAction()
         }
     }
 

@@ -8,6 +8,10 @@ struct PumpBaseSettingsView: View {
     @Environment(\.guidanceColors) private var guidanceColors
 
     var body: some View {
+        elaraBody.elaraListBackground()
+    }
+
+    @ViewBuilder private var elaraBody: some View {
         VStack {
             List {
                 Section {

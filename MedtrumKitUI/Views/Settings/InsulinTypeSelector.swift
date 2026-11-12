@@ -31,6 +31,10 @@ struct InsulinTypeSelector: View {
     }
 
     var body: some View {
+        elaraBody.elaraListBackground()
+    }
+
+    @ViewBuilder private var elaraBody: some View {
         VStack(alignment: .leading) {
             List {
                 Section {

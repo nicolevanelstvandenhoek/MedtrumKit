@@ -7,6 +7,10 @@ struct OnboardingWelcomeView: View {
     let nextStep: () -> Void
 
     var body: some View {
+        elaraBody.elaraListBackground()
+    }
+
+    @ViewBuilder private var elaraBody: some View {
         VStack {
             List {
                 Section {

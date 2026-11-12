@@ -6,6 +6,10 @@ struct ManualTempBasalView: View {
     @ObservedObject var viewModel: ManualTempBasalViewModel
 
     var body: some View {
+        elaraBody.elaraListBackground()
+    }
+
+    @ViewBuilder private var elaraBody: some View {
         VStack {
             List {
                 Section {

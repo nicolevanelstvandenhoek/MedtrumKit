@@ -17,6 +17,10 @@ struct PatchSettingsView: View {
     let extendedWarningId = "extendedWarning"
 
     var body: some View {
+        elaraBody.elaraListBackground()
+    }
+
+    @ViewBuilder private var elaraBody: some View {
         VStack {
             ScrollViewReader { proxy in
                 List {

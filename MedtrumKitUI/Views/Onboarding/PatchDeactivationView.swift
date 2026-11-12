@@ -8,6 +8,10 @@ struct PatchDeactivationView: View {
     @State private var showingSteps = false
 
     var body: some View {
+        elaraBody.elaraListBackground()
+    }
+
+    @ViewBuilder private var elaraBody: some View {
         VStack {
             List {
                 Section {
